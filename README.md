@@ -185,8 +185,9 @@ Mapped address spaces:
 ```
 
 data is 0x00022558 (HEAP) and is stored at 0xbefff4e4 (STACK)  
-0xbefff4e4 is stack address
-0x00022558 is the value stored in this stack address that points to another address in the heap
 
 the memory range 0x22000 0x43000 (where our pointer variable is stored) is allocated for the **heap**
+
+0xbefff4e4 is stack address  
+0x00022558 is the value stored in this stack address that points to another address in the heap
 
